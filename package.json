@@ -1,0 +1,9 @@
+{
+  "name": "vcf-search-tool",
+  "version": "1.0.0",
+  "description": "Simple VCF search tool",
+  "main": "lib/index.js",
+  "type": "module",
+  "author": "diversemix",
+  "license": "MIT"
+}
