@@ -1,8 +1,11 @@
 # vcf-search-tool
+
 Search tool for VCF files
+
 -----
 
 ## TL;DR
+(requires docker and essential build tools installed)
 
 - Clone the repo
 - Run `make`
@@ -30,7 +33,7 @@ Search tool for VCF files
 ### How does it scale?
 Seems ok ...
 - I've tested this with large ~11Gb VCF files it matches the last line in 3min 30 sec taking no more than 600Mb of memory.
-- 
+
 ### How to test efficiently
 - Unit test with something like the Jest framework, 
     - check it works in known cases, when good data is used (found and not found)
